@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TimeUp Time Tracking App</string>
+    <string name="get_started_text">Lets get your day\n started</string>
+    <string name="forgot_password_msg">Don\'t worry! it happens. Please enter the email address associated with your account.</string>
+    <string name="on_submit_msg">Check out your mailbox, you will receive an email containing link where you can reset your password</string>
+</resources>

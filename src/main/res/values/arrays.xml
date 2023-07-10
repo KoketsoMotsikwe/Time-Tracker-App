@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="category_array">
+        <item>Category 1</item>
+        <item>Category 2</item>
+        <item>Category 3</item>
+        <!-- Add more categories as needed -->
+    </array>
+</resources>
