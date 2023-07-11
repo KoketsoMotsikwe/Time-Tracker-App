@@ -15,6 +15,8 @@ Category Hours Summary: Users can view the total number of hours spent on each c
 Hours Worked Graph: Users can view a graph showing the total hours worked each day over a user-selectable period. The graph also displays the minimum and maximum goals.
 Goal Achievement Visualization (Monthly Overview): Users can visualize their performance in staying between their minimum and maximum hour goals over the past month.
 Online Database Storage (Firebase): The app stores data in an online database using Firebase.
+
+
 Technologies Used
 The TimeUp Time Tracking App is built using the following technologies:
 
