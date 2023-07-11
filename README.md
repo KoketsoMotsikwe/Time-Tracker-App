@@ -6,14 +6,25 @@ Features
 The TimeUp Time Tracking App offers the following features:
 
 User Authentication: Users can log in to the app using their username and password.
+
 Category Management: Users can create categories to organize their timesheet entries.
+
 Timesheet Entry Creation: Users can create timesheet entries by providing information such as date, start and end times, description, and category.
+
 Photo Attachment (Optional): Users can optionally add a photograph to each timesheet entry.
+
 Goal Setting: Users can set a minimum and maximum daily goal for hours worked.
-Timesheet Entry Viewing: Users can view a list of all timesheet entries created during a user-selectable period. If a photo was stored for an entry, users can access it from the entry list.
+
+Timesheet Entry Viewing: Users can view a list of all timesheet entries created during a user-selectable period. 
+
+If a photo was stored for an entry, users can access it from the entry list.
+
 Category Hours Summary: Users can view the total number of hours spent on each category during a user-selectable period.
+
 Hours Worked Graph: Users can view a graph showing the total hours worked each day over a user-selectable period. The graph also displays the minimum and maximum goals.
+
 Goal Achievement Visualization (Monthly Overview): Users can visualize their performance in staying between their minimum and maximum hour goals over the past month.
+
 Online Database Storage (Firebase): The app stores data in an online database using Firebase.
 
 
