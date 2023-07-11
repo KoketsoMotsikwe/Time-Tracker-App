@@ -18,6 +18,7 @@ Online Database Storage (Firebase): The app stores data in an online database us
 
 
 Technologies Used
+
 The TimeUp Time Tracking App is built using the following technologies:
 
 Android Studio: The integrated development environment (IDE) used to develop the Android application.
