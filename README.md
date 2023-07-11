@@ -3,6 +3,7 @@ The TimeUp Time Tracking App is a mobile application designed to help users trac
 This README file provides an overview of the app's features, technologies used, and instructions for setting up and running the app.
 
 Features
+
 The TimeUp Time Tracking App offers the following features:
 
 User Authentication: Users can log in to the app using their username and password.
