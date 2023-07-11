@@ -1,5 +1,6 @@
 TimeUp Time Tracking App
-The TimeUp Time Tracking App is a mobile application designed to help users track their time spent on various activities and tasks. It allows users to create timesheet entries, set goals, and monitor their progress over time. This README file provides an overview of the app's features, technologies used, and instructions for setting up and running the app.
+The TimeUp Time Tracking App is a mobile application designed to help users track their time spent on various activities and tasks. The app allows users to log in, create categories for timesheet entries, record timesheet entries with details such as date, start and end times, description, and category. Users can also optionally attach photographs to each entry. The app enables users to set minimum and maximum daily goals for hours worked. It provides features to view a list of timesheet entries, access photos associated with entries, view total hours spent on each category during a selected period, and visualize the total hours worked each day over a user-selectable period.
+This README file provides an overview of the app's features, technologies used, and instructions for setting up and running the app.
 
 Features
 The TimeUp Time Tracking App offers the following features:
