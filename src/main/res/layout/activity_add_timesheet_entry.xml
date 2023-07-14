@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:text="Add Timesheet Entry"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Calendar View -->
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Start Time -->
+        <TextView
+            android:id="@+id/textViewStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Time"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Stopwatch -->
+        <TextView
+            android:id="@+id/textViewStopwatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <!-- End Time -->
+        <TextView
+            android:id="@+id/textViewEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End Time"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Description EditText -->
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Description"
+            android:textStyle="bold" />
+
+        <!-- Category -->
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Category Spinner -->
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Photo -->
+        <TextView
+            android:id="@+id/textViewPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photo"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Add Photo Button -->
+        <Button
+            android:id="@+id/buttonAddPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Photo"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/textViewPhoto" />
+
+        <!-- ImageView for displaying the captured photo -->
+        <ImageView
+            android:id="@+id/imageViewPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Timesheet Entry Details -->
+        <TextView
+            android:id="@+id/textViewTimesheetEntryDetails"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Timesheet Entry Details"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Date Value -->
+        <TextView
+            android:id="@+id/textViewDateValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textSize="16sp" />
+
+        <!-- Start Time Value -->
+        <TextView
+            android:id="@+id/textViewStartTimeValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Start Time: "
+            android:textSize="16sp" />
+
+        <!-- End Time Value -->
+        <TextView
+            android:id="@+id/textViewEndTimeValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="End Time: "
+            android:textSize="16sp" />
+
+        <!-- Description Value -->
+        <TextView
+            android:id="@+id/textViewDescriptionValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Description: "
+            android:textSize="16sp" />
+
+        <!-- Category Value -->
+        <TextView
+            android:id="@+id/textViewCategoryValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Category: "
+            android:textSize="16sp" />
+
+        <!-- Timesheet Entry Image -->
+        <ImageView
+            android:id="@+id/imageViewTimesheetEntry"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp" />
+
+        <ListView
+            android:id="@+id/listViewTimesheetEntries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
